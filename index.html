@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Congrès-Panafricain</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+       <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="d-flex flex-column align-items-center">
+            <h2 class="text-primary mb-4 animate__animated animate__fadeIn">Congrès Panafricain</h2>
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+    </div>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animate__fadeIn {
+            animation: fadeIn 10s ease-in;
+        }
+        #spinner {
+            animation-duration: 10s;
+        }
+    </style>
+    <!-- Spinner End -->
+
+      <!-- Navbar Start -->
+     <!-- Social Media Bar Start -->
+         <div class="container-fluid bg-dark px-5">
+             <div class="row gx-0">
+                 <div class="d-flex flex-column flex-md-row justify-content-center align-items-center" style="min-height: 45px;">
+                     <div class="d-inline-flex align-items-center me-md-4 mb-2 mb-md-0">
+                         <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, Kinshasa, RDC</small>
+                         <small class="text-light"><i class="fa fa-envelope me-2"></i>info@congrespanafricain.com</small>
+                     </div>
+                     <div class="d-inline-flex align-items-center">
+                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram"></i></a>
+                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     
+         <!-- Social Media Bar End -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 text-white">Congrès Panafricain</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                
+                <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                <a href="about.html" class="nav-item nav-link">À propos</a>
+                <a href="programmes.html" class="nav-item nav-link">Programme</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informations</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="#" class="dropdown-item">Inscription</a>
+                        <a href="#" class="dropdown-item">Hébergement</a>
+                        <a href="#" class="dropdown-item">Transport</a>
+                        <a href="Intervenants.html" class="dropdown-item">Intervenants</a>
+                        <a href="#" class="dropdown-item">Témoignages</a>
+                        <a href="#" class="dropdown-item">FAQ</a>
+                    </div>
+                </div>
+                
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+
+                <a href="Login.html" class="nav-item nav-link btn btn-primary btn-sm text-white px-2">Se connecter</a>        
+            </div>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-phone text-primary me-3"></i>+243 0707070707</h4>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative mb-5">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/1.jpg" alt="" style="max-height: 600px; object-fit: cover;">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Congrès Panafricain</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Unité et <span class="text-primary">Progrès</span> pour l'Afrique</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Rejoignez-nous pour le plus grand rassemblement panafricain. Ensemble, construisons une Afrique unie, forte et prospère pour les générations futures.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">En savoir plus</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">S'inscrire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/1.jpg" alt="" style="max-height: 600px; object-fit: cover;">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Congrès Panafricain</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Innovation et <span class="text-primary">Développement</span> Durable</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Découvrez les opportunités de collaboration et d'échange pour le développement économique et social de l'Afrique.</p>
+                                <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">En savoir plus</a>
+                                <a href="Inscription.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">S'inscrire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container about py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/PANAFRICAIN.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="text-secondary text-uppercase mb-3">À Propos</h6>
+                    <h1 class="mb-5">Le Congrès Panafricain pour l'Unité et le Progrès</h1>
+                    <p class="mb-5">Le Congrès Panafricain est une plateforme unique dédiée à la promotion de l'unité africaine et au développement du continent. Notre mission est de rassembler les leaders, intellectuels et acteurs du changement pour façonner l'avenir de l'Afrique.</p>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                            <i class="fa fa-handshake fa-3x text-primary mb-3"></i>
+                            <h5>Collaboration Continentale</h5>
+                            <p class="m-0">Créer des synergies entre les nations africaines pour un développement harmonieux et durable du continent.</p>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <i class="fa fa-lightbulb fa-3x text-primary mb-3"></i>
+                            <h5>Innovation Africaine</h5>
+                            <p class="m-0">Promouvoir les solutions innovantes made in Africa pour répondre aux défis du continent.</p>
+                        </div>
+                    </div>
+                    <a href="" class="btn btn-primary py-3 px-5">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+               <!-- Video Carousel Start -->
+     <div class="container-xxl py-5">
+         <div class="container py-5">
+             <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                 <h6 class="text-secondary text-uppercase">Nos Vidéos</h6>
+                 <h1>Découvrez nos moments forts</h1>
+             </div>
+             <div class="row">
+                 <!-- Main Video Section -->
+                 <div class="col-12 mb-5">
+                     <div class="row align-items-center">
+                         <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.3s">
+                             <div class="position-relative">
+                                 <video class="w-100 rounded-3 shadow" controls style="max-height: 600px; object-fit: cover; border: 3px solid ;">
+                                     <source src="img/Spot PANAFRICAIN FHD .MP4" type="video/mp4">
+                                     Votre navigateur ne supporte pas la lecture de vidéos.
+                                 </video>
+                             </div>
+                         </div>
+                         <div class="col-md-6 wow fadeInRight" data-wow-delay="0.5s">
+                             <h3 class="mb-4">Le Congrès Panafricain en action</h3>
+                             <p class="mb-4">Cette vidéo présente les moments clés du Congrès Panafricain, mettant en lumière nos initiatives pour l'unité et le développement de l'Afrique. Vous y découvrirez les échanges enrichissants entre les participants, les débats constructifs et les solutions innovantes proposées pour relever les défis du continent.</p>
+                             <ul class="list-unstyled">
+                                 <li class="mb-2"><i class="fa fa-check text-primary me-2"></i>Témoignages des participants</li>
+                                 <li class="mb-2"><i class="fa fa-check text-primary me-2"></i>Moments d'échange et de partage</li>
+                                 <li class="mb-2"><i class="fa fa-check text-primary me-2"></i>Présentation des projets innovants</li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- Video Carousel End -->
+
+      <!-- Fact Start -->
+      <div class="container-xxl py-5">
+          <div class="container py-5">
+              <div class="row g-5">
+                  <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                      <h6 class="text-secondary text-uppercase mb-3">Nos Réalisations</h6>
+                      <h1 class="mb-5">La Première Plateforme de Collaboration Panafricaine</h1>
+                      <p class="mb-5">Notre congrès rassemble les forces vives du continent africain pour promouvoir l'unité, l'innovation et le développement durable. Ensemble, nous construisons une Afrique forte et prospère.</p>
+                      <div class="d-flex align-items-center">
+                          <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                          <div class="ps-4">
+                              <h6>Contactez-nous!</h6>
+                              <h3 class="text-primary m-0">+225 07 0707 0707</h3>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6">
+                      <div class="row g-4 align-items-center">
+                          <div class="col-sm-6">
+                              <div class="bg-primary p-4 mb-4 wow fadeIn" data-wow-delay="0.3s">
+                                  <i class="fa fa-users fa-2x text-white mb-3"></i>
+                                  <h2 class="text-white mb-2" data-toggle="counter-up">5000</h2>
+                                  <p class="text-white mb-0">Participants</p>
+                              </div>
+                              <div class="bg-secondary p-4 wow fadeIn" data-wow-delay="0.5s">
+                                  <i class="fa fa-handshake fa-2x text-white mb-3"></i>
+                                  <h2 class="text-white mb-2" data-toggle="counter-up">54</h2>
+                                  <p class="text-white mb-0">Pays Africains</p>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="bg-success p-4 wow fadeIn" data-wow-delay="0.7s">
+                                  <i class="fa fa-lightbulb fa-2x text-white mb-3"></i>
+                                  <h2 class="text-white mb-2" data-toggle="counter-up">200</h2>
+                                  <p class="text-white mb-0">Projets Innovants</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Fact End -->
+            <!-- Gallery Start -->
+            <div class="container-xxl py-5">
+                <div class="container py-5">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="text-secondary text-uppercase">Notre Galerie</h6>
+                        <h1 class="mb-5">Photos des Événements</h1>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="gallery-item">
+                                <img class="img-fluid" src="img/LOGO.png" alt="">
+                                <div class="gallery-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/LOGO.png" data-lightbox="gallery"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="gallery-item">
+                                <img class="img-fluid" src="img/LOGO.png" alt="">
+                                <div class="gallery-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/LOGO.png" data-lightbox="gallery"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="gallery-item">
+                                <img class="img-fluid" src="img/LOGO.png" alt="">
+                                <div class="gallery-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/LOGO.png" data-lightbox="gallery"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="gallery-item">
+                                <img class="img-fluid" src="img/LOGO.png" alt="">
+                                <div class="gallery-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/LOGO.png" data-lightbox="gallery"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="gallery-item">
+                                <img class="img-fluid" src="img/LOGO.png" alt="">
+                                <div class="gallery-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/LOGO.png" data-lightbox="gallery"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="gallery-item">
+                                <img class="img-fluid" src="img/LOGO.png" alt="">
+                                <div class="gallery-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/LOGO.png" data-lightbox="gallery"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Gallery End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Nos Services</h6>
+                <h1 class="mb-5">Découvrez Nos Services</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/LOGO.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Réseautage</h4>
+                        <p>Créez des connexions durables avec des leaders et entrepreneurs africains.</p>
+                        <a class="btn-slide mt-2" href="about.html#service"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/LOGO.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Mentorat</h4>
+                        <p>Bénéficiez de l'expertise de professionnels expérimentés du continent.</p>
+                        <a class="btn-slide mt-2" href="about.html#service"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/LOGO.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Formation</h4>
+                        <p>Accédez à des programmes de formation adaptés aux besoins africains.</p>
+                        <a class="btn-slide mt-2" href="about.html#service"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/LOGO.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Financement</h4>
+                        <p>Découvrez des opportunités de financement pour vos projets innovants.</p>
+                        <a class="btn-slide mt-2" href="about.html#service"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/LOGO.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Innovation</h4>
+                        <p>Participez à des ateliers d'innovation et de créativité collaborative.</p>
+                        <a class="btn-slide mt-2" href="about.html#service"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/LOGO.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Partenariats</h4>
+                        <p>Développez des partenariats stratégiques à l'échelle continentale.</p>
+                        <a class="btn-slide mt-2" href="about.html#service"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container feature py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Notre Vision</h6>
+                    <h1 class="mb-5">Congrès Panafricain pour l'Éveil Patriotique des Jeunes</h1>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fa fa-users text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>Unité Africaine</h5>
+                            <p class="mb-0">Rassembler les jeunes leaders africains pour construire une vision commune du développement continental</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-lightbulb text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>Innovation et Leadership</h5>
+                            <p class="mb-0">Développer les compétences en leadership et encourager l'innovation pour répondre aux défis africains</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <i class="fa fa-handshake text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>Collaboration Continentale</h5>
+                            <p class="mb-0">Créer des réseaux durables entre jeunes leaders pour favoriser les échanges et partenariats panafricains</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/PANAFRICAIN.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+<!-- Congrès Panafricain Section -->
+<div class="container-xxl py-5">
+   <div class="container py-5">
+       <div class="row g-5 align-items-center">
+           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+               <h6 class="text-secondary text-uppercase mb-3">Congrès Panafricain</h6>
+               <h1 class="mb-5">L'Éveil Patriotique des Jeunes Africains</h1>
+               <div class="mb-4">
+                   <h5>Notre Mission</h5>
+                   <p>Le Congrès Panafricain pour l'Éveil Patriotique des Jeunes est une initiative visant à mobiliser et à autonomiser la jeunesse africaine pour un développement continental durable. Sous la direction de notre Président National Lévis MUNEZA, les étudiants du Congo s'engagent activement dans cette noble mission.</p>
+               </div>
+               <div class="mb-4">
+                   <h5>Nos Objectifs</h5>
+                   <ul class="list-unstyled">
+                       <li><i class="fa fa-check text-primary me-2"></i>Promouvoir l'unité et la solidarité entre les jeunes africains</li>
+                       <li><i class="fa fa-check text-primary me-2"></i>Développer le leadership et l'esprit entrepreneurial</li>
+                       <li><i class="fa fa-check text-primary me-2"></i>Renforcer la conscience patriotique africaine</li>
+                       <li><i class="fa fa-check text-primary me-2"></i>Créer des réseaux d'action panafricains</li>
+                   </ul>
+               </div>
+               <div class="mb-4">
+                   <h5>Nos Engagements</h5>
+                   <ul class="list-unstyled">
+                       <li><i class="fa fa-star text-primary me-2"></i>Formation continue en leadership</li>
+                       <li><i class="fa fa-star text-primary me-2"></i>Mentorat et accompagnement des projets</li>
+                       <li><i class="fa fa-star text-primary me-2"></i>Organisation de forums d'échange</li>
+                       <li><i class="fa fa-star text-primary me-2"></i>Soutien aux initiatives locales</li>
+                       <li><i class="fa fa-star text-primary me-2"></i>Représentation active des étudiants congolais</li>
+                   </ul>
+               </div>
+           </div>
+           <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.5s">
+               <div class="position-relative h-100" style="min-height: 30px;">
+                   <img class="img-fluid w-51 h-30" src="img/PR.jpg" alt="Congrès Panafricain" style="object-fit: cover;">
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+<!-- Congrès Panafricain Section End -->
+
+    <!-- Quote Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Contactez-nous</h6>
+                    <h1 class="mb-5">Demandez un devis gratuit!</h1>
+                    <p class="mb-5">Notre équipe est à votre disposition pour répondre à toutes vos questions et vous accompagner dans vos projets. N'hésitez pas à nous contacter pour obtenir plus d'informations sur nos services.</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                            <h6>Appelez-nous pour toute question!</h6>
+                            <h3 class="text-primary m-0">+243 999 999 999</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Votre Nom" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Votre Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Votre Téléphone" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Sélectionnez un service</option>
+                                        <option value="1">Formation en Leadership</option>
+                                        <option value="2">Mentorat</option>
+                                        <option value="3">Accompagnement de Projet</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Votre Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Envoyer</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Notre Équipe</h6>
+                <h1 class="mb-5">Les Membres de Notre Équipe</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/PR.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">KEMI Seba</h5>
+                        <p>Directeur Général</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/PR.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Nkosi MANDELA</h5>
+                        <p>Responsable Formation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/PR.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Christian SUNG</h5>
+                        <p>Coach Senior</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/PR.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">MFUMU NKUSU</h5>
+                        <p>Consultante</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">Témoignages</h6>
+                <h1 class="mb-0">Ce que disent nos étudiants !</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Kofi Mensah</h5>
+                            <p class="m-0">Étudiant du Ghana</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">La formation m'a permis d'acquérir des compétences précieuses pour mon avenir professionnel. Les formateurs sont très attentifs à nos besoins.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Aminata Diallo</h5>
+                            <p class="m-0">Étudiante du Sénégal</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Une expérience enrichissante qui m'a ouvert de nouvelles perspectives. Je suis reconnaissante pour cette opportunité de formation.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Chibueze Okonkwo</h5>
+                            <p class="m-0">Étudiant du Nigeria</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Les cours sont bien structurés et adaptés à nos besoins. J'ai beaucoup appris et je me sens prêt pour le marché du travail.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Aisha Mohamed</h5>
+                            <p class="m-0">Étudiante du Mali</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Une formation de qualité qui m'a donné les outils nécessaires pour réussir. L'équipe pédagogique est très professionnelle et à l'écoute.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Adresse</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Rue de la République, Dakar, Sénégal</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+221 33 123 45 67</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@formationpro.sn</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Nos Services</h4>
+                    <a class="btn btn-link" href="">Formation Continue</a>
+                    <a class="btn btn-link" href="">Formation Professionnelle</a>
+                    <a class="btn btn-link" href="">Certification</a>
+                    <a class="btn btn-link" href="">Conseil en Formation</a>
+                    <a class="btn btn-link" href="">Solutions Entreprises</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Liens Rapides</h4>
+                    <a class="btn btn-link" href="">À Propos</a>
+                    <a class="btn btn-link" href="">Nous Contacter</a>
+                    <a class="btn btn-link" href="">Nos Services</a>
+                    <a class="btn btn-link" href="">Conditions Générales</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Inscrivez-vous à notre newsletter pour recevoir nos actualités.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'inscrire</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="" href="#">Formation Pro DRC</a>, Tous droits réservés.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Développé par <a class="" href="#">Mk_WEB1</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

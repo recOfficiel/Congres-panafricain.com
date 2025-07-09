@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Programmes</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+         <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="d-flex flex-column align-items-center">
+            <h2 class="text-primary mb-4 animate__animated animate__fadeIn">Congrès Panafricain</h2>
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+    </div>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animate__fadeIn {
+            animation: fadeIn 10s ease-in;
+        }
+        #spinner {
+            animation-duration: 10s;
+        }
+    </style>
+    <!-- Spinner End -->
+
+      <!-- Navbar Start -->
+     <!-- Social Media Bar Start -->
+         <div class="container-fluid bg-dark px-5">
+             <div class="row gx-0">
+                 <div class="d-flex flex-column flex-md-row justify-content-center align-items-center" style="min-height: 45px;">
+                     <div class="d-inline-flex align-items-center me-md-4 mb-2 mb-md-0">
+                         <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, Kinshasa, RDC</small>
+                         <small class="text-light"><i class="fa fa-envelope me-2"></i>info@congrespanafricain.com</small>
+                     </div>
+                     <div class="d-inline-flex align-items-center">
+                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram"></i></a>
+                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     
+         <!-- Social Media Bar End -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 text-white">Congrès Panafricain</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                
+                 
+                <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                <a href="about.html" class="nav-item nav-link">À propos</a>
+                <a href="programmes.html" class="nav-item nav-link">Programme</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informations</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="#" class="dropdown-item">Inscription</a>
+                        <a href="#" class="dropdown-item">Hébergement</a>
+                        <a href="#" class="dropdown-item">Transport</a>
+                        <a href="#" class="dropdown-item">Intervenants</a>
+                        <a href="#" class="dropdown-item">Témoignages</a>
+                        <a href="#" class="dropdown-item">FAQ</a>
+                    </div>
+                </div>
+                
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+
+                <a href="Login.html" class="nav-item nav-link btn btn-primary btn-sm text-white px-2">Se connecter</a>       
+            </div>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-phone text-primary me-3"></i>+243 0707070707</h4>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem; background: url('img/1.jpg') center center no-repeat; background-size: cover;">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Programmes</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Programmes</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+      <!-- Service Start -->
+      <div class="container-xxl py-5">
+          <div class="container py-5">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                  <h6 class="text-secondary text-uppercase">Notre Programme</h6>
+                  <h1 class="mb-5">Les Activités du Congrès</h1>
+              </div>
+              <div class="row g-4">
+                  <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                      <div class="service-item p-4">
+                          <div class="overflow-hidden mb-4">
+                              <img class="img-fluid" src="img/conference-1.jpg" alt="">
+                          </div>
+                          <h4 class="mb-3">Conférences Plénières</h4>
+                          <p>Sessions principales avec des experts reconnus sur les enjeux majeurs de l'Afrique.</p>
+                          <a class="btn-slide mt-2" href="#conferences-plenieres"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                      <div class="service-item p-4">
+                          <div class="overflow-hidden mb-4">
+                              <img class="img-fluid" src="img/workshop-1.jpg" alt="">
+                          </div>
+                          <h4 class="mb-3">Ateliers Thématiques</h4>
+                          <p>Groupes de travail sur des sujets spécifiques avec des experts du domaine.</p>
+                          <a class="btn-slide mt-2" href="#ateliers-thematiques"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                      <div class="service-item p-4">
+                          <div class="overflow-hidden mb-4">
+                              <img class="img-fluid" src="img/networking-1.jpg" alt="">
+                          </div>
+                          <h4 class="mb-3">Networking</h4>
+                          <p>Occasions de réseautage entre participants et opportunités de collaboration.</p>
+                          <a class="btn-slide mt-2" href="#networking"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                      <div class="service-item p-4">
+                          <div class="overflow-hidden mb-4">
+                              <img class="img-fluid" src="img/cultural-1.jpg" alt="">
+                          </div>
+                          <h4 class="mb-3">Activités Culturelles</h4>
+                          <p>Découverte de la richesse culturelle africaine à travers diverses animations.</p>
+                          <a class="btn-slide mt-2" href="#activites-culturelles"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                      <div class="service-item p-4">
+                          <div class="overflow-hidden mb-4">
+                              <img class="img-fluid" src="img/exposition-1.jpg" alt="">
+                          </div>
+                          <h4 class="mb-3">Expositions</h4>
+                          <p>Présentation de projets innovants et solutions pour le développement de l'Afrique.</p>
+                          <a class="btn-slide mt-2" href="#expositions"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                      <div class="service-item p-4">
+                          <div class="overflow-hidden mb-4">
+                              <img class="img-fluid" src="img/forum-1.jpg" alt="">
+                          </div>
+                          <h4 class="mb-3">Forums de Discussion</h4>
+                          <p>Espaces d'échange et de débat sur les défis et opportunités du continent.</p>
+                          <a class="btn-slide mt-2" href="#forums-discussion"><i class="fa fa-arrow-right"></i><span>En savoir plus</span></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Service End -->
+       
+  
+<!-- Conférences Plénières Section -->
+
+<section id="conferences-plenieres" class="container-xxl py-5">
+    <div class="container py-5">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                  <h6 class="text-secondary text-uppercase">Nos Programme</h6>
+                  <h1 class="mb-5">Nos Programmes détaillés</h1>
+              </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                <div class="d-flex align-items-center mb-4">
+                    <i class="fas fa-podium fa-3x text-primary me-3"></i>
+                    <h2 class="section-title text-start mb-0">Conférences Plénières</h2>
+                </div>
+                <img src="img/conference-pleniere.jpg" alt="Conférences Plénières" class="img-fluid rounded mb-4">
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                <p class="mb-4">Des sessions plénières animées par des experts internationaux abordant les thèmes suivants :</p>
+                <p class="mb-4">Nos conférences plénières rassemblent les plus grands experts du continent pour des discussions approfondies et des échanges enrichissants sur les enjeux majeurs de l'Afrique contemporaine.</p>
+                <ul class="list-unstyled ms-4">
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-leaf text-primary me-2"></i>
+                        <span>Développement durable et énergies renouvelables en Afrique</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-microchip text-primary me-2"></i>
+                        <span>Innovation technologique et transformation digitale</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-briefcase text-primary me-2"></i>
+                        <span>Entrepreneuriat et développement économique</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-graduation-cap text-primary me-2"></i>
+                        <span>Éducation et formation professionnelle</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-heartbeat text-primary me-2"></i>
+                        <span>Santé publique et accès aux soins</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Ateliers Thématiques Section -->
+<section  id="ateliers-thematiques" class="container-xxl py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 order-lg-2 wow fadeInRight" data-wow-delay="0.1s">
+                <div class="d-flex align-items-center mb-4">
+                    <i class="fas fa-users fa-3x text-primary me-3"></i>
+                    <h2 class="section-title text-start mb-0">Ateliers Thématiques</h2>
+                </div>
+                <img src="img/ateliers-thematiques.jpg" alt="Ateliers Thématiques" class="img-fluid rounded mb-4">
+            </div>
+            <div class="col-lg-6 order-lg-1 wow fadeInLeft" data-wow-delay="0.3s">
+                <p class="mb-4">Des sessions interactives en petits groupes permettant :</p>
+                <p class="mb-4">Nos ateliers thématiques offrent un cadre intime et collaboratif pour approfondir des sujets spécifiques et développer des compétences pratiques.</p>
+                <ul class="list-unstyled ms-4">
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-tools text-primary me-2"></i>
+                        <span>Travail pratique sur des cas concrets</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-comments text-primary me-2"></i>
+                        <span>Échange d'expériences entre participants</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-lightbulb text-primary me-2"></i>
+                        <span>Développement de solutions innovantes</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-chalkboard-teacher text-primary me-2"></i>
+                        <span>Formation aux nouvelles méthodologies</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-project-diagram text-primary me-2"></i>
+                        <span>Création de projets collaboratifs</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Networking Section -->
+<section  id="networking" class="container-xxl py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                <div class="d-flex align-items-center mb-4">
+                    <i class="fas fa-network-wired fa-3x text-primary me-3"></i>
+                    <h2 class="section-title text-start mb-0">Networking</h2>
+                </div>
+                <img src="img/networking-events.jpg" alt="Networking" class="img-fluid rounded mb-4">
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                <p class="mb-4">Opportunités de réseautage structurées incluant :</p>
+                <p class="mb-4">Créez des connexions durables et élargissez votre réseau professionnel lors de nos événements de networking soigneusement organisés.</p>
+                <ul class="list-unstyled ms-4">
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-clock text-primary me-2"></i>
+                        <span>Sessions de speed networking</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-utensils text-primary me-2"></i>
+                        <span>Déjeuners thématiques</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-glass-cheers text-primary me-2"></i>
+                        <span>Soirées de networking</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-laptop text-primary me-2"></i>
+                        <span>Plateforme digitale de mise en relation</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-handshake text-primary me-2"></i>
+                        <span>Rendez-vous B2B programmés</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Activités Culturelles Section -->
+<section id="activites-culturelles" class="container-xxl py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 order-lg-2 wow fadeInRight" data-wow-delay="0.1s">
+                <div class="d-flex align-items-center mb-4">
+                    <i class="fas fa-theater-masks fa-3x text-primary me-3"></i>
+                    <h2 class="section-title text-start mb-0">Activités Culturelles</h2>
+                </div>
+                <img src="img/activites-culturelles.jpg" alt="Activités Culturelles" class="img-fluid rounded mb-4">
+            </div>
+            <div class="col-lg-6 order-lg-1 wow fadeInLeft" data-wow-delay="0.3s">
+                <p class="mb-4">Une immersion dans la culture africaine à travers :</p>
+                <p class="mb-4">Découvrez la richesse et la diversité de la culture africaine à travers des performances artistiques et des expériences immersives uniques.</p>
+                <ul class="list-unstyled ms-4">
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-drum text-primary me-2"></i>
+                        <span>Spectacles de danse traditionnelle</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-music text-primary me-2"></i>
+                        <span>Concerts de musique africaine</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-paint-brush text-primary me-2"></i>
+                        <span>Démonstrations artisanales</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-utensils text-primary me-2"></i>
+                        <span>Dégustations gastronomiques</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-palette text-primary me-2"></i>
+                        <span>Expositions d'art contemporain</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Expositions Section -->
+<section id="expositions" class="container-xxl py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                <div class="d-flex align-items-center mb-4">
+                    <i class="fas fa-exhibition fa-3x text-primary me-3"></i>
+                    <h2 class="section-title text-start mb-0">Expositions</h2>
+                </div>
+                <img src="img/expositions-tech.jpg" alt="Expositions" class="img-fluid rounded mb-4">
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                <p class="mb-4">Un espace d'exposition présentant :</p>
+                <p class="mb-4">Explorez les dernières innovations et solutions développées en Afrique à travers nos espaces d'exposition interactifs et informatifs.</p>
+                <ul class="list-unstyled ms-4">
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-robot text-primary me-2"></i>
+                        <span>Innovations technologiques africaines</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-solar-panel text-primary me-2"></i>
+                        <span>Projets de développement durable</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-tractor text-primary me-2"></i>
+                        <span>Solutions pour l'agriculture moderne</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-rocket text-primary me-2"></i>
+                        <span>Startups et entreprises innovantes</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-leaf text-primary me-2"></i>
+                        <span>Initiatives environnementales</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Forums de Discussion Section -->
+<section id="forums-discussion" class="container-xxl py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 order-lg-2 wow fadeInRight" data-wow-delay="0.1s">
+                <div class="d-flex align-items-center mb-4">
+                    <i class="fas fa-comments fa-3x text-primary me-3"></i>
+                    <h2 class="section-title text-start mb-0">Forums de Discussion</h2>
+                </div>
+                <img src="img/forums-discussion.jpg" alt="Forums de Discussion" class="img-fluid rounded mb-4">
+            </div>
+            <div class="col-lg-6 order-lg-1 wow fadeInLeft" data-wow-delay="0.3s">
+                <p class="mb-4">Des espaces de dialogue portant sur :</p>
+                <p class="mb-4">Participez à des discussions enrichissantes et constructives sur les enjeux majeurs qui façonnent l'avenir du continent africain.</p>
+                <ul class="list-unstyled ms-4">
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-chart-line text-primary me-2"></i>
+                        <span>Défis économiques actuels</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-balance-scale text-primary me-2"></i>
+                        <span>Questions de gouvernance</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-users text-primary me-2"></i>
+                        <span>Développement social</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-tree text-primary me-2"></i>
+                        <span>Enjeux environnementaux</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-road text-primary me-2"></i>
+                        <span>Perspectives d'avenir pour l'Afrique</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Testimonial Start -->
+      <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="container py-5">
+              <div class="text-center">
+                  <h6 class="text-secondary text-uppercase">Témoignages</h6>
+                  <h1 class="mb-0">Paroles des Participants</h1>
+              </div>
+              <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="testimonial-item p-4 my-5">
+                      <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                      <div class="d-flex align-items-end mb-4">
+                          <img class="img-fluid flex-shrink-0" src="img/participant-1.jpg" style="width: 80px; height: 80px;">
+                          <div class="ms-4">
+                              <h5 class="mb-1">Dr. Aminata Diallo</h5>
+                              <p class="m-0">Chercheure en Développement Durable</p>
+                          </div>
+                      </div>
+                      <p class="mb-0">Une expérience enrichissante qui m'a permis de tisser des liens précieux avec d'autres acteurs du développement africain.</p>
+                  </div>
+                  <div class="testimonial-item p-4 my-5">
+                      <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                      <div class="d-flex align-items-end mb-4">
+                          <img class="img-fluid flex-shrink-0" src="img/participant-2.jpg" style="width: 80px; height: 80px;">
+                          <div class="ms-4">
+                              <h5 class="mb-1">Prof. Kofi Mensah</h5>
+                              <p class="m-0">Expert en Innovation Sociale</p>
+                          </div>
+                      </div>
+                      <p class="mb-0">Le congrès a été une plateforme exceptionnelle pour partager des idées et construire des collaborations panafricaines.</p>
+                  </div>
+                  <div class="testimonial-item p-4 my-5">
+                      <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                      <div class="d-flex align-items-end mb-4">
+                          <img class="img-fluid flex-shrink-0" src="img/participant-3.jpg" style="width: 80px; height: 80px;">
+                          <div class="ms-4">
+                              <h5 class="mb-1">Mme. Sarah Ndlovu</h5>
+                              <p class="m-0">Entrepreneure Sociale</p>
+                          </div>
+                      </div>
+                      <p class="mb-0">Les échanges et les contacts établis durant le congrès ont ouvert de nouvelles perspectives pour mon projet.</p>
+                  </div>
+                  <div class="testimonial-item p-4 my-5">
+                      <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                      <div class="d-flex align-items-end mb-4">
+                          <img class="img-fluid flex-shrink-0" src="img/participant-4.jpg" style="width: 80px; height: 80px;">
+                          <div class="ms-4">
+                              <h5 class="mb-1">Dr. Jean-Pierre Mukendi</h5>
+                              <p class="m-0">Spécialiste en Politiques Publiques</p>
+                          </div>
+                      </div>
+                      <p class="mb-0">Un événement remarquable qui contribue réellement à l'unité et au développement de l'Afrique.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Adresse</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Rue de la République, Dakar, Sénégal</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+221 33 123 45 67</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@formationpro.sn</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Nos Services</h4>
+                    <a class="btn btn-link" href="">Formation Continue</a>
+                    <a class="btn btn-link" href="">Formation Professionnelle</a>
+                    <a class="btn btn-link" href="">Certification</a>
+                    <a class="btn btn-link" href="">Conseil en Formation</a>
+                    <a class="btn btn-link" href="">Solutions Entreprises</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Liens Rapides</h4>
+                    <a class="btn btn-link" href="">À Propos</a>
+                    <a class="btn btn-link" href="">Nous Contacter</a>
+                    <a class="btn btn-link" href="">Nos Services</a>
+                    <a class="btn btn-link" href="">Conditions Générales</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Inscrivez-vous à notre newsletter pour recevoir nos actualités.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'inscrire</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="" href="#">Formation Pro DRC</a>, Tous droits réservés.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Développé par <a class="" href="#">Mk_WEB1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
