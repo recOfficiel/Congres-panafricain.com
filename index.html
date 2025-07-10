@@ -175,6 +175,82 @@
     </div>
     <!-- About End -->
 
+<!-- Présentation du mouvement et de ses valeurs -->
+<div class="container-xxl py-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                <h2 class="mb-4 text-primary">Le Mouvement du Congrès Panafricain</h2>
+                <p>
+                    Le Congrès Panafricain est un mouvement qui prône l’unité, la solidarité, l’innovation et le développement durable pour toute l’Afrique et sa diaspora. Nos valeurs sont fondées sur la collaboration, l’inclusion, le respect des diversités et la promotion de la jeunesse africaine.
+                </p>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="fa fa-check text-primary me-2"></i>Unité et solidarité africaine</li>
+                    <li class="mb-2"><i class="fa fa-check text-primary me-2"></i>Développement durable et innovation</li>
+                    <li class="mb-2"><i class="fa fa-check text-primary me-2"></i>Engagement citoyen et leadership</li>
+                    <li class="mb-2"><i class="fa fa-check text-primary me-2"></i>Ouverture à la diaspora</li>
+                </ul>
+            </div>
+            <!-- Compte à rebours du prochain congrès -->
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                <div class="bg-light rounded p-4 shadow text-center">
+                    <h4 class="mb-3 text-primary">Prochain Congrès Panafricain</h4>
+                    <div id="countdown" class="d-flex justify-content-center gap-3 mb-3">
+                        <div>
+                            <span id="days" class="h2 text-primary"></span><br><small>Jours</small>
+                        </div>
+                        <div>
+                            <span id="hours" class="h2 text-primary"></span><br><small>Heures</small>
+                        </div>
+                        <div>
+                            <span id="minutes" class="h2 text-primary"></span><br><small>Minutes</small>
+                        </div>
+                        <div>
+                            <span id="seconds" class="h2 text-primary"></span><br><small>Secondes</small>
+                        </div>
+                    </div>
+                    <p class="mb-0">Ne manquez pas cet événement majeur pour l’Afrique !</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Actualités récentes -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h3 class="text-primary mb-3">Actualités récentes</h3>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="bg-light rounded p-4 shadow h-100">
+                    <h5 class="mb-2 text-primary">Lancement du prochain congrès</h5>
+                    <p class="mb-1">Le comité d’organisation annonce l’ouverture des inscriptions pour la prochaine édition du Congrès Panafricain.</p>
+                    <a href="Media.html" class="text-secondary">Lire plus</a>
+                </div>
+            </div>
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="bg-light rounded p-4 shadow h-100">
+                    <h5 class="mb-2 text-primary">Nouveaux partenaires</h5>
+                    <p class="mb-1">De nouveaux partenaires rejoignent le mouvement pour soutenir l’innovation et la jeunesse africaine.</p>
+                    <a href="partenaires.html" class="text-secondary">Voir les partenaires</a>
+                </div>
+            </div>
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="bg-light rounded p-4 shadow h-100">
+                    <h5 class="mb-2 text-primary">Retour sur l’édition précédente</h5>
+                    <p class="mb-1">Revivez les meilleurs moments et découvrez les témoignages des participants de la dernière édition.</p>
+                    <a href="Media.html" class="text-secondary">Voir la galerie</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
                <!-- Video Carousel Start -->
      <div class="container-xxl py-5">
          <div class="container py-5">
@@ -734,3 +810,17 @@
     <script src="js/main.js"></script>
 </body>
 </html>
+
+<!-- Script Compte à rebours -->
+<script>
+    // Date du prochain congrès (exemple : 1er décembre 2025 à 10h00)
+    const eventDate = new Date("2025-12-01T10:00:00").getTime();
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = eventDate - now;
+        document.getElementById("days").innerText = Math.floor(distance / (1000 * 60 * 60 * 24));
+        document.getElementById("hours").innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        document.getElementById("minutes").innerText = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        document.getElementById("seconds").innerText = Math.floor((distance % (1000 * 60)) / 1000);
+    }
+    setInterval(updateCountdown, 1000);
